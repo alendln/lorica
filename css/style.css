@@ -1,0 +1,67 @@
+/* HEADER */
+
+.navbar-brand img { max-width: 100px; }
+
+.bg-dark { background: #b41b22!important; }
+
+/* ESTILOS*/
+
+.titulo-general {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.titulo-general span {
+  display: block;
+  font-weight: 700;
+  font-size: 2.2rem;
+} 
+
+/* CAROUSEL*/
+
+.bg-carousel-ba1 { background-image: url(../img/lorica-centro-historico.jpeg); }
+.bg-carousel-ba2 { background-image: url(../img/lorica-puente-viejo.jpeg); }
+.bg-carousel-ba3 { background-image: url(../img/lorica-sombreros.jpeg); }
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item svg { opacity: 80%; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 37rem;
+  min-height: 95vh;
+}
+
+/* QUIENES SOMOS */
+
+.bg-aside1 {
+  background: #bd7a0e;
+  padding: 2rem;
+}
+
+/*CONTACTANOS */
+
+.btn-form {
+  background: #b41b22;
+  color: #fff !important;
+}
+.btn-form:hover { background: #752125; }
+
+/* FOOTER */
+
+#main-footer {
+  background: #b41b22;
+  color: #f7efef;
+  padding: 1rem;
+  text-align:center
+  
+}
+
